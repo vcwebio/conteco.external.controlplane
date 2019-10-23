@@ -7,7 +7,7 @@ RUN apk update && apk add docker && apk add git && apk add inotify-tools && rm -
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
-COPY ./ /conteco/git-repository/
+COPY ./ /repo/git-repository/
 ##### END external/Dockerfile/conteco #####
 
 ##### BEGIN external-mapped/Dockerfile/labels-footer #####

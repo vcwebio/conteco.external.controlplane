@@ -7,7 +7,7 @@ RUN apk update && apk add docker && apk add git && apk add inotify-tools && rm -
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
-COPY ./ /conteco/git-repository/
+COPY ./ /conteco/repo/
 ##### END external/Dockerfile/conteco #####
 
 ##### BEGIN external-mapped/Dockerfile/labels-footer #####
@@ -16,7 +16,7 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
       io.vcweb.name="controlplane" \
-      io.vcweb.tag="1.0.0" \
+      io.vcweb.tag="v1.0.0" \
       io.vcweb.base="external.bash:5.0.9" \
       io.vcweb.build="external-extended" \
       io.vcweb.label="External controlplane image" \

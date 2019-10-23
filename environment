@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="Creation of the external controlplane image for the 
 
 export CONTECO_TYPE="external"
 export CONTECO_NAME="controlplane"
-export CONTECO_TAG="1.0.0"
+export CONTECO_TAG="v1.0.0"
 
 export CONTECO_BASE="external.bash:5.0.9"
 export CONTECO_BUILD="external-extended"
