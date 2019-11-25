@@ -3,7 +3,7 @@ FROM $CONTECO_REALM/$CONTECO_ECOSYSTEM.$CONTECO_BASE AS base
 ##### END external-extended/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
-RUN apk update && apk add docker && apk add git && apk add inotify-tools && rm -rf /var/cache/apk/*
+RUN apk update && apk add docker && apk add git && apk add inotify-tools && apk add nano && rm -rf /var/cache/apk/*
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
