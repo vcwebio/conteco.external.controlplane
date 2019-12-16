@@ -1,12 +1,14 @@
-# conteco.external.controlplane
+# `external.controlplane` - ContEco
 
-Creation of external controlplane image for the ContEco ecosystem.
+`external.bash` image with controlplane prerequisites installed.
 
-## Install
+## Installed External Prerequisites
 
-Image is based on external.bash:5.0.9.
-Installs current version of docker (18.09.8) and git (2.22).
+- docker
+- git
+- inotifytools
+- nano
 
 ## Tags
 
-* 1.0.0 (latest)
+* 18.09.8 (latest)
