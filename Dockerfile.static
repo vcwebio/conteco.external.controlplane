@@ -16,10 +16,10 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
       io.vcweb.name="controlplane" \
-      io.vcweb.tag="v1.0.0" \
+      io.vcweb.tag="18.09.8" \
       io.vcweb.base="external.bash:5.0.9" \
       io.vcweb.build="external-extended" \
-      io.vcweb.label="External controlplane image" \
-      io.vcweb.description="Creation of the external controlplane image for the ContEco ecosystem." \
+      io.vcweb.label="external.controlplane - ContEco" \
+      io.vcweb.description=" image with controlplane prerequisites installed." \
       io.vcweb.repository="/conteco/git-repository" 
 ##### END external-mapped/Dockerfile/labels-footer #####
