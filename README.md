@@ -1,6 +1,7 @@
 # `external.controlplane` - ContEco
 
 `external.bash` image with controlplane prerequisites installed.
+See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Installed External Prerequisites
 
