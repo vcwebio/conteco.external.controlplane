@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export CONTECO_LABEL="external.controlplane - ContEco"
-export CONTECO_DESCRIPTION="`external.bash` image with controlplane prerequisites installed."
+export CONTECO_DESCRIPTION="external.bash image with controlplane prerequisites installed."
 
 export CONTECO_TYPE="external"
 export CONTECO_NAME="controlplane"
