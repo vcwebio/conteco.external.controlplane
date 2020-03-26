@@ -7,7 +7,7 @@ RUN apk update && apk add docker && apk add git && apk add inotify-tools && apk 
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
-COPY ./ /repo/git-repository/
+COPY ./ /conteco/repo/
 ##### END external/Dockerfile/conteco #####
 
 ##### BEGIN external-mapped/Dockerfile/labels-footer #####
@@ -21,5 +21,5 @@ LABEL $CONTECO_LABELSPACE.schema-version="1.0" \
       $CONTECO_LABELSPACE.build="$CONTECO_BUILD" \
       $CONTECO_LABELSPACE.label="$CONTECO_LABEL" \
       $CONTECO_LABELSPACE.description="$CONTECO_DESCRIPTION" \
-      $CONTECO_LABELSPACE.repository="/conteco/git-repository"
+      $CONTECO_LABELSPACE.repository="/conteco/repo"
 ##### END external-mapped/Dockerfile/labels-footer #####
