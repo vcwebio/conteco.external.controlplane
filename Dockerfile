@@ -3,7 +3,7 @@ FROM $CONTECO_REGISTRY$CONTECO_REALM_RUNTIME/$CONTECO_ECOSYSTEM_RUNTIME.$CONTECO
 ##### END external-extended/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
-RUN apk update && apk add docker && apk add git && apk add inotify-tools && apk add nano && rm -rf /var/cache/apk/*
+RUN apk update && apk add docker && apk add git && apk add inotify-tools && apk add nano && apk add curl && rm -rf /var/cache/apk/*
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
